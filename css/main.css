@@ -669,19 +669,19 @@ img {
 }
 
 .solution__item--antena::before {
-  background-image: url(./image/icons.svg#antenna);
+  background-image: url(../image/antenna.svg);
 }
 
 .solution__item--clock::before {
-  background-image: url(../images/clock.svg);
+  background-image: url(../image/clock.svg);
 }
 
 .solution__item--diagram::before {
-  background-image: url(../images/diagram.svg);
+  background-image: url(../image/diagram.svg);
 }
 
 .solution__item--astro::before {
-  background-image: url(../images/astronaut.svg);
+  background-image: url(../image/astronaut.svg);
 }
 
 @media (max-width: 1200px) {
@@ -1428,7 +1428,7 @@ img {
 .checkbox__field:checked + .checkbox__icon {
   border-color: #2196f3;
   background-color: #2196f3;
-  background-image: url("../images/vector.svg");
+  background-image: url("../image/check.svg");
   background-size: contain;
   background-origin: border-box;
 }
