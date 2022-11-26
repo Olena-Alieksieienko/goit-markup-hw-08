@@ -1,5 +1,11 @@
 .contacts {
-   font-style: normal;   
+   font-style: normal;
+      @media (min-width: 768px) {
+         margin: 19px 0;
+      }
+      @media (min-width: 1200px) {
+         margin: 0;
+      } 
 }
 
 .contacts__link {
@@ -15,7 +21,6 @@
 .contacts__link:focus {
    color: $acent-color;
 }
-
 
 .contacts__icon {   
    display: none;
@@ -44,19 +49,6 @@
    height: 16px;
    }
 }
-
-
-.menu-contacts {
-   & .contacts {
-      @media (min-width: 768px) {
-         margin: 19px 0;
-      }
-      @media (min-width: 1200px) {
-         margin: 0;
-      }
-   }
-}
-
 
 .contacts__item:first-child {
    @media (min-width: 768px) {

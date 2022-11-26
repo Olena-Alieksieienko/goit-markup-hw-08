@@ -394,6 +394,16 @@ img {
 .contacts {
   font-style: normal;
 }
+@media (min-width: 768px) {
+  .contacts {
+    margin: 19px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .contacts {
+    margin: 0;
+  }
+}
 
 .contacts__link {
   font-weight: 500;
@@ -442,17 +452,6 @@ img {
     height: 16px;
   }
 }
-@media (min-width: 768px) {
-  .menu-contacts .contacts {
-    margin: 19px 0;
-  }
-}
-@media (min-width: 1200px) {
-  .menu-contacts .contacts {
-    margin: 0;
-  }
-}
-
 @media (min-width: 768px) {
   .contacts__item:first-child {
     margin-bottom: 10px;
@@ -1026,7 +1025,6 @@ img {
 }
 @media (min-width: 1200px) {
   .footer {
-    width: 206px;
     margin-right: 93px;
     margin-left: 70px;
   }
