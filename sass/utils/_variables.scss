@@ -3,7 +3,6 @@ $title-text-color: #212121;
 $acent-color: #2196f3;
 $main-white-color: #ffffff;
 $hero-color: #2f303a;
-// $hero-grad:rgba(47, 48, 58, 0.4);
 $section-comand: #f5f4fa;
 $border-color: #eeeeee;
 $lonely-button: #188ce8;
@@ -52,13 +51,3 @@ $breakpoints: (
       @content;
    }
 }
-
-// @mixin transition($property) {
-//   transition: $property 250ms $cubic;
-// }
-
-// @mixin centered-flex($type: flex) {
-//   display: $type;
-//   align-items: center;
-//   justify-content: center;
-// }
