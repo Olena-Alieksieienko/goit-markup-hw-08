@@ -1,6 +1,5 @@
 .command {
    background-color: $section-comand;
-   // font-size: 16px;
 }
 
 .command__list {
@@ -48,10 +47,6 @@
    height: auto;
 }
 
-// .command__img {
-//    // width: 450px;
-// }
-
 .command__title {
    font-weight: $fw-500;
    font-size: $fs-16;
@@ -60,13 +55,11 @@
 
    color: $title-text-color;
    text-align: center;
-   // margin-top: 30px;
    margin-bottom: 10px;
    
 }
 
 .command__text {
-   // margin: 0 auto 16px;
    margin-top: 10px;
    margin-bottom: 16px;
 }
