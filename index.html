@@ -157,51 +157,34 @@
         <ul class="command__list">
           <li class="command__item">
             <picture class="command__thumb">
-              <!-- Mobile -->
-              <source type="image/webp" srcset="
-                    ./image/employees/igor-450.webp     450w,
-                    ./image/employees/igor-450@2x.webp  900w,
-                    ./image/employees/igor-450@3x.webp 1350w
-                  " media="screen and (max-width:767px)" sizes="100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/igor-450.jpg     450w,
-                    ./images/command/igor-450@2x.jpg  900w,
-                    ./images/command/igor-450@3x.jpg 1350w
-                  " media="screen and (max-width:767px)" sizes="100vw" />
-              <!-- Tablet -->
-              <source type="image/webp" srcset="
-                    ./images/command/igor-354.webp     354w,
-                    ./images/command/igor-354@2x.webp  708w,
-                    ./images/command/igor-354@3x.webp 1062w
-                  " media="screen and (max-width:1199px)" sizes="(min-width: 768px) 50vw, 100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/igor-354.jpg     354w,
-                    ./images/command/igor-354@2x.jpg  708w,
-                    ./images/command/igor-354@3x.jpg 1062w
-                  " media="screen and (max-width:1199px)" sizes="(min-width: 768px) 50vw, 100vw" />
               <!-- Desktop -->
-              <source type="image/webp" srcset="
-                    ./images/command/igor-270.webp    270w,
-                    ./images/command/igor-270@2x.webp 540w,
-                    ./images/command/igor-270@3x.webp 810w
-                  " media="screen and (min-width:1200px)" sizes="(min-width: 1200px) 25vw, 100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/igor-270.jpg    270w,
-                    ./images/command/igor-270@2x.jpg 540w,
-                    ./images/command/igor-270@3x.jpg 810w
-                  " media="screen and (min-width:1200px)" sizes="(min-width: 1200px) 25vw, 100vw" />
-              <img class="command__img" src="./images/command/igor-270.jpg" alt="Игорь" srcset="
-                    ./images/command/igor-270.jpg 270w,
-                    ./images/command/igor-354.jpg 354w,
-                    ./images/command/igor-450.jpg 450w
-                  " sizes="
-                  (min-width: 1200px) 25vw,
-                  (min-width: 768px) 50vw, 100vw
-                  " />
+              <source 
+                srcset="
+                    ./image/employees/img1.jpg  1x,
+                    ./image/employees/img1-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 1200px)"/>
+                  <!-- Tablet -->
+              <source 
+                srcset="
+                    ./image/employees/img1-tab.jpg  1x,
+                    ./image/employees/img1-tab-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 768px)"/>
+                  <!-- Mobile -->
+              <source 
+                srcset="
+                    ./image/employees/img1-mob.jpg  1x,
+                    ./image/employees/img1-mob-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 320px)"/>
+              <img 
+              class="command__img" 
+              src="./image/employees/img1.jpg" 
+              alt="Співробітник-1" 
+              width="270" 
+              height="260" />
             </picture>
-
-            <!-- <img class="command__img" src="./images/img.jpg" alt="man in glases" width="270" /> -->
-
             <div class="command__container">
               <h3 class="command__title">Ігор Дем'яненко</h3>
               <p class="command__text">Product Designer</p>
@@ -210,28 +193,28 @@
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-insta"></use>
+                      <use href="./image/icons.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" aria-label="іконка">
+                    <svg class="social__icon" width="20" height="20">
+                      <use href="./image/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-twit"></use>
+                      <use href="./image/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-face"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a class="social__link" href="" aria-label="іконка">
-                    <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-lkdl"></use>
+                      <use href="./image/icons.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -241,50 +224,34 @@
 
           <li class="command__item">
             <picture class="command__thumb">
-              <!-- Mobile -->
-              <source type="image/webp" srcset="
-                    ./images/command/olga-450.webp     450w,
-                    ./images/command/olga-450@2x.webp  900w,
-                    ./images/command/olga-450@3x.webp 1350w
-                  " media="screen and (max-width:767px)" sizes="100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/olga-450.jpg     450w,
-                    ./images/command/olga-450@2x.jpg  900w,
-                    ./images/command/olga-450@3x.jpg 1350w
-                  " media="screen and (max-width:767px)" sizes="100vw" />
-              <!-- Tablet -->
-              <source type="image/webp" srcset="
-                    ./images/command/olga-354.webp     354w,
-                    ./images/command/olga-354@2x.webp  708w,
-                    ./images/command/olga-354@3x.webp 1062w
-                  " media="screen and (max-width:1199px)" sizes="(min-width: 768px) 50vw, 100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/olga-354.jpg     354w,
-                    ./images/command/olga-354@2x.jpg  708w,
-                    ./images/command/olga-354@3x.jpg 1062w
-                  " media="screen and (max-width:1199px)" sizes="(min-width: 768px) 50vw, 100vw" />
               <!-- Desktop -->
-              <source type="image/webp" srcset="
-                    ./images/command/olga-270.webp    270w,
-                    ./images/command/olga-270@2x.webp 540w,
-                    ./images/command/olga-270@3x.webp 810w
-                  " media="screen and (min-width:1200px)" sizes="(min-width: 1200px) 25vw, 100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/olga-270.jpg    270w,
-                    ./images/command/olga-270@2x.jpg 540w,
-                    ./images/command/olga-270@3x.jpg 810w
-                  " media="screen and (min-width:1200px)" sizes="(min-width: 1200px) 25vw, 100vw" />
-              <img class="command__img" src="./images/command/olga-270.jpg" alt="Ольга" srcset="
-                    ./images/command/olga-270.jpg 270w,
-                    ./images/command/olga-354.jpg 354w,
-                    ./images/command/olga-450.jpg 450w
-                  " sizes="
-                  (min-width: 1200px) 25vw,
-                  (min-width: 768px) 50vw, 100vw
-                  " />
+              <source 
+                srcset="
+                    ./image/employees/img2.jpg  1x,
+                    ./image/employees/img2-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 1200px)"/>
+                  <!-- Tablet -->
+              <source 
+                srcset="
+                    ./image/employees/img2-tab.jpg  1x,
+                    ./image/employees/img2-tab-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 768px)"/>
+                  <!-- Mobile -->
+              <source 
+                srcset="
+                    ./image/employees/img2-mob.jpg  1x,
+                    ./image/employees/img2-mob-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 320px)"/>
+              <img 
+              class="command__img" 
+              src="./image/employees/img2.jpg" 
+              alt="Співробітник-2" 
+              width="270" 
+              height="260" />
             </picture>
-
-            <!-- <img class="command__img" src="./images/1img.jpg" alt="girl in glasses" width="270" /> -->
 
             <div class="command__container">
               <h3 class="command__title">Ольга Рєпіна</h3>
@@ -293,28 +260,28 @@
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-insta"></use>
+                      <use href="./image/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-twit"></use>
+                      <use href="./image/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-face"></use>
+                      <use href="./image/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socia__-item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-lkdl"></use>
+                      <use href="./image/icons.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -323,50 +290,35 @@
           </li>
 
           <li class="command__item">
-            <!-- <img class="command__img" src="./images/2img.jpg" alt="man" width="270" /> -->
 
             <picture class="command__thumb">
-              <!-- Mobile -->
-              <source type="image/webp" srcset="
-                    ./images/command/nikola-450.webp     450w,
-                    ./images/command/nikola-450@2x.webp  900w,
-                    ./images/command/nikola-450@3x.webp 1350w
-                  " media="screen and (max-width:767px)" sizes="100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/nikola-450.jpg     450w,
-                    ./images/command/nikola-450@2x.jpg  900w,
-                    ./images/command/nikola-450@3x.jpg 1350w
-                  " media="screen and (max-width:767px)" sizes="100vw" />
-              <!-- Tablet -->
-              <source type="image/webp" srcset="
-                    ./images/command/nikola-354.webp     354w,
-                    ./images/command/nikola-354@2x.webp  708w,
-                    ./images/command/nikola-354@3x.webp 1062w
-                  " media="screen and (max-width:1199px)" sizes="(min-width: 768px) 50vw, 100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/nikola-354.jpg     354w,
-                    ./images/command/nikola-354@2x.jpg  708w,
-                    ./images/command/nikola-354@3x.jpg 1062w
-                  " media="screen and (max-width:1199px)" sizes="(min-width: 768px) 50vw, 100vw" />
               <!-- Desktop -->
-              <source type="image/webp" srcset="
-                    ./images/command/nikola-270.webp    270w,
-                    ./images/command/nikola-270@2x.webp 540w,
-                    ./images/command/nikola-270@3x.webp 810w
-                  " media="screen and (min-width:1200px)" sizes="(min-width: 1200px) 25vw, 100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/nikola-270.jpg    270w,
-                    ./images/command/nikola-270@2x.jpg 540w,
-                    ./images/command/nikola-270@3x.jpg 810w
-                  " media="screen and (min-width:1200px)" sizes="(min-width: 1200px) 25vw, 100vw" />
-              <img class="command__img" src="./images/command/nikola-270.jpg" alt="Николай" srcset="
-                    ./images/command/nikola-270.jpg 270w,
-                    ./images/command/nikola-354.jpg 354w,
-                    ./images/command/nikola-450.jpg 450w
-                  " sizes="
-                  (min-width: 1200px) 25vw,
-                  (min-width: 768px) 50vw, 100vw
-                  " />
+              <source 
+                srcset="
+                    ./image/employees/img3.jpg  1x,
+                    ./image/employees/img3-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 1200px)"/>
+                  <!-- Tablet -->
+              <source 
+                srcset="
+                    ./image/employees/img3-tab.jpg  1x,
+                    ./image/employees/img3-tab-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 768px)"/>
+                  <!-- Mobile -->
+              <source 
+                srcset="
+                    ./image/employees/img3-mob.jpg  1x,
+                    ./image/employees/img3-mob-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 320px)"/>
+              <img 
+              class="command__img" 
+              src="./image/employees/img3.jpg" 
+              alt="Співробітник-3" 
+              width="270" 
+              height="260" />
             </picture>
 
             <div class="command__container">
@@ -376,28 +328,28 @@
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-insta"></use>
+                      <use href="./image/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-twit"></use>
+                      <use href="./image/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-face"></use>
+                      <use href="./image/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-lkdl"></use>
+                      <use href="./image/icons.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -406,50 +358,35 @@
           </li>
 
           <li class="command__item">
-            <!-- <img class="command__img" src="./images/3img.jpg" alt="man 1" width="270" /> -->
 
             <picture class="command__thumb">
-              <!-- Mobile -->
-              <source type="image/webp" srcset="
-                    ./images/command/mike-450.webp     450w,
-                    ./images/command/mike-450@2x.webp  900w,
-                    ./images/command/mike-450@3x.webp 1350w
-                  " media="screen and (max-width:767px)" sizes="100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/mike-450.jpg     450w,
-                    ./images/command/mike-450@2x.jpg  900w,
-                    ./images/command/mike-450@3x.jpg 1350w
-                  " media="screen and (max-width:767px)" sizes="100vw" />
-              <!-- Tablet -->
-              <source type="image/webp" srcset="
-                    ./images/command/mike-354.webp     354w,
-                    ./images/command/mike-354@2x.webp  708w,
-                    ./images/command/mike-354@3x.webp 1062w
-                  " media="screen and (max-width:1199px)" sizes="(min-width: 768px) 50vw, 100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/mike-354.jpg     354w,
-                    ./images/command/mike-354@2x.jpg  708w,
-                    ./images/command/mike-354@3x.jpg 1062w
-                  " media="screen and (max-width:1199px)" sizes="(min-width: 768px) 50vw, 100vw" />
               <!-- Desktop -->
-              <source type="image/webp" srcset="
-                    ./images/command/mike-270.webp    270w,
-                    ./images/command/mike-270@2x.webp 540w,
-                    ./images/command/mike-270@3x.webp 810w
-                  " media="screen and (min-width:1200px)" sizes="(min-width: 1200px) 25vw, 100vw" />
-              <source type="image/jpeg" srcset="
-                    ./images/command/mike-270.jpg    270w,
-                    ./images/command/mike-270@2x.jpg 540w,
-                    ./images/command/mike-270@3x.jpg 810w
-                  " media="screen and (min-width:1200px)" sizes="(min-width: 1200px) 25vw, 100vw" />
-              <img class="command__img" src="./images/command/mike-270.jpg" alt="Михаил" srcset="
-                    ./images/command/mike-270.jpg 270w,
-                    ./images/command/mike-354.jpg 354w,
-                    ./images/command/mike-450.jpg 450w
-                  " sizes="
-                  (min-width: 1200px) 25vw,
-                  (min-width: 768px) 50vw, 100vw
-                  " />
+              <source 
+                srcset="
+                    ./image/employees/img4.jpg  1x,
+                    ./image/employees/img4-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 1200px)"/>
+                  <!-- Tablet -->
+              <source 
+                srcset="
+                    ./image/employees/img4-tab.jpg  1x,
+                    ./image/employees/img4-tab-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 768px)"/>
+                  <!-- Mobile -->
+              <source 
+                srcset="
+                    ./image/employees/img4-mob.jpg  1x,
+                    ./image/employees/img4-mob-2x.jpg  2x
+                    "
+                  media="screen and (min-width: 320px)"/>
+              <img 
+              class="command__img" 
+              src="./image/employees/img4.jpg" 
+              alt="Співробітник-4" 
+              width="270" 
+              height="260" />
             </picture>
 
             <div class="command__container">
@@ -459,28 +396,28 @@
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-insta"></use>
+                      <use href="./image/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-twit"></use>
+                      <use href="./image/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-face"></use>
+                      <use href="./image/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social__item">
                   <a class="social__link" href="" aria-label="іконка">
                     <svg class="social__icon" width="20" height="20">
-                      <use href="./images/social-defs.svg#icon-lkdl"></use>
+                      <use href="./image/icons.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -499,42 +436,42 @@
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="іконка">
               <svg class="clients__icon" width="106" height="60">
-                <use href="./images/icon-defs.svg#icon-logo1"></use>
+                <use href="./image/icons.svg#company1"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="іконка">
               <svg class="clients__icon" width="106" height="60">
-                <use href="./images/icon-defs.svg#icon-logo2"></use>
+                <use href="./image/icons.svg#company2"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="іконка">
               <svg class="clients__icon" width="106" height="60">
-                <use href="./images/icon-defs.svg#icon-logo3"></use>
+                <use href="./image/icons.svg#company3"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="іконка">
               <svg class="clients__icon" width="106" height="60">
-                <use href="./images/icon-defs.svg#icon-logo4"></use>
+                <use href="./image/icons.svg#company4"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="іконка">
               <svg class="clients__icon" width="106" height="60">
-                <use href="./images/icon-defs.svg#icon-logo5"></use>
+                <use href="./image/icons.svg#company5"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="іконка">
               <svg class="clients__icon" width="106" height="60">
-                <use href="./images/icon-defs.svg#icon-logo6"></use>
+                <use href="./image/icons.svg#company6"></use>
               </svg>
             </a>
           </li>
@@ -569,28 +506,28 @@
           <li class="footer-social__item">
             <a class="footer-social__link" href="" aria-label="іконка">
               <svg class="footer-social__icon" width="20" height="20">
-                <use href="./images/social-defs.svg#icon-insta"></use>
+                <use href="./image/icons.svg#instagram"></use>
               </svg>
             </a>
           </li>
           <li class="footer-social__item">
             <a class="footer-social__link" href="" aria-label="іконка">
               <svg class="footer-social__icon" width="20" height="20">
-                <use href="./images/social-defs.svg#icon-twit"></use>
+                <use href="./image/icons.svg#twitter"></use>
               </svg>
             </a>
           </li>
           <li class="footer-social__item">
             <a class="footer-social__link" href="" aria-label="іконка">
               <svg class="footer-social__icon" width="20" height="20">
-                <use href="./images/social-defs.svg#icon-face"></use>
+                <use href="./image/icons.svg#facebook"></use>
               </svg>
             </a>
           </li>
           <li class="footer-social__item">
             <a class="footer-social__link" href="" aria-label="іконка">
               <svg class="footer-social__icon" width="20" height="20">
-                <use href="./images/social-defs.svg#icon-lkdl"></use>
+                <use href="./image/icons.svg#linkedin"></use>
               </svg>
             </a>
           </li>
@@ -605,7 +542,7 @@
           <a href="" class="footer-form__link" aria-label="іконка">
             Підписатися
             <svg class="footer-form__icon" width="24" height="24">
-              <use href="./images/form-defs.svg#icon-icon_send"></use>
+              <use href="./image/icons.svg#icon-btn-send"></use>
             </svg>
           </a>
         </label>
